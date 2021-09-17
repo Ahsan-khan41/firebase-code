@@ -1,0 +1,185 @@
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 0.5em 1.4em 1.4em 1.4em !important;
+    margin: 3em 3em 0 1.5em !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;        
+}
+
+legend.scheduler-border {
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    border: none;
+    width: 70px;
+}
+
+.input{
+    width: 300px;
+    border-color: gainsboro;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+/* Dashboard Css */
+
+#new-team-btn{
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    margin: 1.5em;
+    padding: 0;
+    text-align: center;
+    border-radius: 50%;
+    padding-bottom: 5px;
+    float: right;
+}
+
+
+#form{
+    padding: 1em;
+}
+
+h2{
+    text-align: center;
+}
+
+h4{
+    display: inline-block;
+}
+
+.dot-menu{
+    float: right;
+    padding: 0%;
+}
+
+svg{
+    color: rgb(28, 28, 224);
+}
+
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 0.5em 1.4em 1.4em 1.4em !important;
+    margin: 3em 3em 0 1.5em !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+
+legend.scheduler-border {
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    border: none;
+    width: 70px;
+}
+
+.setting-container{
+    width: 700px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    margin-left: 5px;
+}
+
+.nav-section{
+    height: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.input{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    width: 300px;
+    border-color: gainsboro;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+.time-input{
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.test-email{
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(233, 233, 233);
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    
+}
+
+.members-area{
+    margin-left: 50px;
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.section{
+    margin-top: 20px;
+}
+
+.active{
+    width: 40px;
+    height: 2px;
+    background-color: blue;
+    margin-top: 40px;
+    padding-left: 30px;
+}
+
+.main-container{
+    z-index: 9;
+    background-color: rgba(0, 0, 0, 0.192);
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden{
+    display: none;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon{
+    src: format("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTExLjc2IDUxMS43NiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTExLjc2IDUxMS43NjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwYXRoIGQ9Ik00MzYuODk2LDc0Ljg2OWMtOTkuODQtOTkuODE5LTI2Mi4yMDgtOTkuODE5LTM2Mi4wNDgsMGMtOTkuNzk3LDk5LjgxOS05OS43OTcsMjYyLjIyOSwwLDM2Mi4wNDgNCgkJCWM0OS45Miw0OS44OTksMTE1LjQ3Nyw3NC44MzcsMTgxLjAzNSw3NC44MzdzMTMxLjA5My0yNC45MzksMTgxLjAxMy03NC44MzdDNTM2LjcxNSwzMzcuMDk5LDUzNi43MTUsMTc0LjY4OCw0MzYuODk2LDc0Ljg2OXoNCgkJCSBNMzYxLjQ2MSwzMzEuMzE3YzguMzQxLDguMzQxLDguMzQxLDIxLjgyNCwwLDMwLjE2NWMtNC4xNiw0LjE2LTkuNjIxLDYuMjUxLTE1LjA4Myw2LjI1MWMtNS40NjEsMC0xMC45MjMtMi4wOTEtMTUuMDgzLTYuMjUxDQoJCQlsLTc1LjQxMy03NS40MzVsLTc1LjM5Miw3NS40MTNjLTQuMTgxLDQuMTYtOS42NDMsNi4yNTEtMTUuMDgzLDYuMjUxYy01LjQ2MSwwLTEwLjkyMy0yLjA5MS0xNS4wODMtNi4yNTENCgkJCWMtOC4zNDEtOC4zNDEtOC4zNDEtMjEuODQ1LDAtMzAuMTY1bDc1LjM5Mi03NS40MTNsLTc1LjQxMy03NS40MTNjLTguMzQxLTguMzQxLTguMzQxLTIxLjg0NSwwLTMwLjE2NQ0KCQkJYzguMzItOC4zNDEsMjEuODI0LTguMzQxLDMwLjE2NSwwbDc1LjQxMyw3NS40MTNsNzUuNDEzLTc1LjQxM2M4LjM0MS04LjM0MSwyMS44MjQtOC4zNDEsMzAuMTY1LDANCgkJCWM4LjM0MSw4LjMyLDguMzQxLDIxLjgyNCwwLDMwLjE2NWwtNzUuNDEzLDc1LjQxM0wzNjEuNDYxLDMzMS4zMTd6Ii8+DQoJPC9nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=");
+    width: 13px;
+    margin-left: 4px;
+    color: gainsboro;
+}
